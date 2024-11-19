@@ -63,12 +63,14 @@
                 text-transform: capitalize;
                 font-size: 30px;
                 transform: translateY(-30px);
+                cursor: crosshair;
             }
             p {
                 font-size: 18px;
                 text-transform: capitalize;
                 transform: translateY(10px);
                 margin-top: 10px;
+                cursor: crosshair;
             }
         }
     }

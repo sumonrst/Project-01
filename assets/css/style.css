@@ -612,6 +612,7 @@ p {
   text-transform: capitalize;
   font-size: 30px;
   transform: translateY(-30px);
+  cursor: crosshair;
 }
 .portfolio .single_portfolio .portfolio_content p {
   font-size: 18px;
