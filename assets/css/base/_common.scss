@@ -98,12 +98,27 @@ li{
         right: 41%;
         top: 14px;
     }
-    .section_icon i {
+    i {
         font-size: 25px;
         color: #333
     }
 
 }
+
+
+/* All Section Title */
+.title {
+    text-align: center;
+    h2 {
+        font-size: 35px;
+        text-transform: uppercase;
+        color: tomato;
+        span {
+            color: #333;
+        }
+    }
+}
+
 
 
 

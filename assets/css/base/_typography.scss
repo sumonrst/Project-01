@@ -11,7 +11,7 @@ body{
 
 /* Theme custom heading */
 
-$heading: (h1, 40px, 48px, 700), (h2, 50px, 75px, 800), (h3, 30px, 33px, 600), (h4, 24px, 28px, 500), (p, 15px, 27px, 400);
+$heading: (h1, 40px, 48px, 700), (h2, 50px, 75px, 800), (h3, 16px, 18px, 700), (h4, 24px, 28px, 500), (p, 15px, 27px, 400);
 @each $title, $font_size, $line_heignt, $font_wait in  $heading{
     #{$title}{
         font-size:$font_size;
@@ -31,5 +31,12 @@ $heading: (h1, 40px, 48px, 700), (h2, 50px, 75px, 800), (h3, 30px, 33px, 600), (
     .pb-#{$i * 10}
     {
         padding-bottom: $i * 10px;
+    }
+
+    .mt-#{$i * 10}{
+        margin-top: $i * 10px;
+    }
+    .mb-#{$i * 10}{
+        margin-bottom: $i * 10px;
     }
 }
