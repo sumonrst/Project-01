@@ -605,6 +605,7 @@ p {
   opacity: 0;
   visibility: hidden;
   z-index: 2;
+  text-align: center;
 }
 .portfolio .single_portfolio .portfolio_content h3 {
   color: #e74c3c;
@@ -617,4 +618,8 @@ p {
   text-transform: capitalize;
   transform: translateY(10px);
   margin-top: 10px;
+}
+
+.pricing_area {
+  background-color: #EFEFEF;
 }/*# sourceMappingURL=style.css.map */
