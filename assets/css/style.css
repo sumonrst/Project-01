@@ -53,6 +53,35 @@ li {
   transition: 0.3s;
 }
 
+/* Section title border */
+.section_icon {
+  position: relative;
+}
+.section_icon:before {
+  content: "";
+  position: absolute;
+  background-color: #333333;
+  width: 50px;
+  height: 1px;
+  transform: translateX(-50%);
+  left: 45%;
+  top: 14px;
+}
+.section_icon:after {
+  content: "";
+  position: absolute;
+  background-color: #333333;
+  width: 50px;
+  height: 1px;
+  transform: translateX(-50%);
+  right: 41%;
+  top: 14px;
+}
+.section_icon .section_icon i {
+  font-size: 25px;
+  color: #333;
+}
+
 body {
   font-family: "Poppins", sans-serif;
   font-size: 16px;
