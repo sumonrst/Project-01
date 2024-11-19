@@ -1,0 +1,42 @@
+
+
+.header_area {
+    padding: 22px 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    .headers {
+        display: grid;
+        grid-template-columns: 20% 80%;
+        column-gap: 5%;
+        align-items: center;
+        .header_logo a {
+            font-size: 30px;
+            color: #fff;
+            font-weight: 700;
+            .logo_tex {
+                color: tomato;
+                font-size: 16px;
+            }
+        }
+        .header_menu{
+            ul{
+                display: flex;
+                justify-content: flex-end;
+                li{
+                    a{
+                        margin-left: 19px;
+                        color: #fff;
+                        font-weight: 500;
+                        &:hover {
+                            color: #E74C3C;
+                            transition: .3s;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+

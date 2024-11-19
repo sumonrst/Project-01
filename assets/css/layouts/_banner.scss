@@ -1,0 +1,51 @@
+
+
+.banner_area{
+    @include overlay_color;
+    height: 100vh;
+    /* Banner content area Start */ 
+    .banner_content{
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+        h2 {
+            color: #fff;
+            text-transform: capitalize;
+            margin: 20px 0;
+        }
+        h3 {
+            color: #e74c3c;
+            text-transform: capitalize;
+        }
+        p {
+            color: #fff;
+            text-transform: capitalize;
+        }
+        .banner_btn {
+            display: grid;
+            grid-template-columns: auto auto;
+            justify-content: space-between;
+            gap: 17px;
+        }
+    }
+    /* Banner Content area End */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
