@@ -1,64 +1,89 @@
 
 .service_area{
     background-color: #EFEFEF;
+    .service {
+      margin-top: 66px;
+      display: grid;
+      grid-template-columns: auto auto auto;
+      gap: 25px;
+      .single_service {
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+        background-color: #EFEFEF;
+        padding: 50px 23px;
+        text-align: center;
+        position: relative;
+        /* Animated Icon hover start */ 
+        &:hover .animated_icon {
+          margin-right: 20%;
+          opacity: 0.1;
+          color: #333;
+          font-size: 100px;
+          visibility: visible;
+        }
+        /* single card hover start */ 
+        &:hover{
+          color: #fff;
+          transition: .7s;
+          background-color: #E74C3C;
+        }
+         /* single icon hover start */ 
+        &:hover i {
+          color: #fff;
+          padding-top: 0;
+          transition: 0.7s;
+        }
+         /* single icon start */
+        i {
+          font-size: 55px;
+          height: 80px;
+          color: #E74C3C;
+          padding-top: 10px;
+        }
+        h4 {
+          text-transform: capitalize;
+        }
+        .animated_icon {
+          position: absolute;
+          content: "";
+          color: #333333;
+          font-size: 75px;
+          background: transparent;
+          right: 0;
+          top: 50%;
+          bottom: 33px;
+          z-index: 3;
+          border: none;
+          transition: all 1s ease;
+          opacity: 0;
+          visibility: hidden;
+        }
+      }
+    }
 }
 
 
 
 
-.service {
-    margin-top: 66px;
-    display: grid;
-    grid-template-columns: auto auto auto;
-    gap: 25px;
-  }
-  .single_service {
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-    background-color: #EFEFEF;
-    padding: 50px 23px;
-    text-align: center;
-  }
-
-  .single_service i {
-    font-size: 55px;
-    height: 80px;
-    color: #E74C3C;
-    padding-top: 10px;
-  }
-
-  .single_service h4 {
-    text-transform: capitalize;
-  }
-
-  .single_service:hover i {
-    color: #fff;
-    padding-top: 0;
-    transition: 0.7s;
-  }
 
 
-  
-.single_service i {
-  font-size: 55px;
-  height: 80px;
-  color: #E74C3C;
-  padding-top: 10px;
-}
-.single_service h4 {
-  text-transform: capitalize;
-}
-.single_service:hover {
-  background-color: #E74C3C;
-  transition: .7s;
-}
-.single_service:hover i {
-  color: #fff;
-  padding-top: 0;
-  transition: 0.7s;
-}
-.single_service:hover p {
-  color: #fff;
-}
-.single_service:hover h4 {
-  color: #fff;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -438,17 +438,61 @@ p {
 .service_area {
   background-color: #EFEFEF;
 }
-
-.service {
+.service_area .service {
   margin-top: 66px;
   display: grid;
   grid-template-columns: auto auto auto;
   gap: 25px;
 }
-
-.single_service {
+.service_area .service .single_service {
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   background-color: #EFEFEF;
-  padding: 32px 23px;
+  padding: 50px 23px;
   text-align: center;
+  position: relative;
+  /* Animated Icon hover start */
+  /* single card hover start */
+  /* single icon hover start */
+  /* single icon start */
+}
+.service_area .service .single_service:hover .animated_icon {
+  margin-right: 20%;
+  opacity: 0.1;
+  color: #333;
+  font-size: 100px;
+  visibility: visible;
+}
+.service_area .service .single_service:hover {
+  color: #fff;
+  transition: 0.7s;
+  background-color: #E74C3C;
+}
+.service_area .service .single_service:hover i {
+  color: #fff;
+  padding-top: 0;
+  transition: 0.7s;
+}
+.service_area .service .single_service i {
+  font-size: 55px;
+  height: 80px;
+  color: #E74C3C;
+  padding-top: 10px;
+}
+.service_area .service .single_service h4 {
+  text-transform: capitalize;
+}
+.service_area .service .single_service .animated_icon {
+  position: absolute;
+  content: "";
+  color: #333333;
+  font-size: 75px;
+  background: transparent;
+  right: 0;
+  top: 50%;
+  bottom: 33px;
+  z-index: 3;
+  border: none;
+  transition: all 1s ease;
+  opacity: 0;
+  visibility: hidden;
 }/*# sourceMappingURL=style.css.map */
