@@ -19,3 +19,17 @@ $heading: (h1, 40px, 48px, 700), (h2, 50px, 75px, 800), (h3, 30px, 33px, 600), (
         font-weight: $font_wait;
     }
 }
+
+/* Theme Custom Padding */ 
+
+@for $i from 1 through 10{
+    .pt-#{$i * 10}
+    {
+        padding-top: $i * 10px;
+    }
+
+    .pb-#{$i * 10}
+    {
+        padding-bottom: $i * 10px;
+    }
+}
