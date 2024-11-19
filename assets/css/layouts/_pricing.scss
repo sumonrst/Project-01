@@ -2,3 +2,54 @@
 .pricing_area{
     background-color: #EFEFEF;
 }
+
+
+
+.pricing {
+	margin-top: 45px;
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+	justify-content: space-between;
+	column-gap: 25px;
+}
+  .single_pricing {
+    background-color: #fff;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
+
+
+  .pricing_header_content {
+    background-color: #4d4d4d;
+    padding: 56px 95px;
+    color: #fff;
+  }
+  .pricing_header_content h3 {
+    font-size: 22px;
+  }
+  .pricing_content {
+	text-align: center;
+	padding: 0 15px;
+}
+  .pricing_content ul li {
+	margin-top: 20px;
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 10px;
+	font-weight: 700;
+	color: #777485;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
