@@ -495,4 +495,53 @@ p {
   transition: all 1s ease;
   opacity: 0;
   visibility: hidden;
+}
+
+.counter_area {
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #fff;
+}
+.counter_area.counter_overlay {
+  position: relative;
+  z-index: 9;
+}
+.counter_area.counter_overlay:before {
+  position: absolute;
+  content: "";
+  background-color: #000;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.85;
+  z-index: -1;
+}
+.counter_area .counter {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  align-items: center;
+  justify-content: space-between;
+}
+.counter_area .counter .single_counter {
+  text-align: center;
+}
+.counter_area .counter .single_counter i {
+  font-size: 37px;
+  margin-bottom: 14px;
+}
+.counter_area .counter .single_counter h2 {
+  font-size: 20px;
+  color: #fff;
+  line-height: 50px;
+  font-weight: 400;
+}
+.counter_area .counter .single_counter h2 span {
+  color: #E74C3C;
+  font-size: 50px;
+  text-transform: capitalize;
+  display: block;
+  font-weight: 800;
+  margin-top: 8px;
 }/*# sourceMappingURL=style.css.map */
