@@ -95,6 +95,11 @@ li {
   color: #333;
 }
 
+/* pricing active background color */
+.active_pricing_bg {
+  background-color: #E74C3C;
+}
+
 body {
   font-family: "Poppins", sans-serif;
   font-size: 16px;
@@ -619,13 +624,13 @@ p {
   text-transform: capitalize;
   transform: translateY(10px);
   margin-top: 10px;
+  cursor: crosshair;
 }
 
 .pricing_area {
   background-color: #EFEFEF;
 }
-
-.pricing {
+.pricing_area .pricing {
   margin-top: 45px;
   display: grid;
   grid-template-columns: 33% 33% 33%;
@@ -633,31 +638,73 @@ p {
   -moz-column-gap: 25px;
        column-gap: 25px;
 }
-
-.single_pricing {
+.pricing_area .pricing .single_pricing {
   background-color: #fff;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  /* Pricing header content */
+  /* Pricing Content */
 }
-
-.pricing_header_content {
+.pricing_area .pricing .single_pricing .pricing_header_content {
   background-color: #4d4d4d;
-  padding: 56px 95px;
+  padding-bottom: 20px;
   color: #fff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 28%;
 }
-
-.pricing_header_content h3 {
+.pricing_area .pricing .single_pricing .pricing_header_content.active_pricing_bg {
+  background-color: #E74C3C;
+}
+.pricing_area .pricing .single_pricing .pricing_header_content h3 {
   font-size: 22px;
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  margin: 27px 0;
 }
-
-.pricing_content {
+.pricing_area .pricing .single_pricing .pricing_header_content .pricing_value {
+  font-size: 65px;
+  font-weight: 700;
+  position: relative;
+}
+.pricing_area .pricing .single_pricing .pricing_header_content .pricing_value .currency {
+  font-size: 35px;
+  font-weight: 600;
+  position: absolute;
+  left: -25px;
+  top: -22px;
+}
+.pricing_area .pricing .single_pricing .pricing_header_content .pricing_value .month {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.pricing_area .pricing .single_pricing .pricing_content {
   text-align: center;
   padding: 0 15px;
+  padding-top: 20px;
+  padding-bottom: 50px;
 }
-
-.pricing_content ul li {
+.pricing_area .pricing .single_pricing .pricing_content ul li {
   margin-top: 20px;
   border-bottom: 1px solid #ddd;
   padding-bottom: 10px;
   font-weight: 700;
   color: #777485;
+}
+.pricing_area .pricing .single_pricing .pricing_content ul li:last-child {
+  border-bottom: 0;
+}
+.pricing_area .pricing .single_pricing .pricing_content .btn-pricing {
+  background-color: #333333;
+  padding: 7px 17px;
+  color: #fff;
+  text-transform: capitalize;
+  display: inline-block;
+  margin: 26px 0;
+}
+.pricing_area .pricing .single_pricing .pricing_content .btn-pricing.active-btn {
+  background-color: #E74C3C;
 }/*# sourceMappingURL=style.css.map */
