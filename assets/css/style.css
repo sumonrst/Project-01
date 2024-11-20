@@ -707,4 +707,99 @@ p {
 }
 .pricing_area .pricing .single_pricing .pricing_content .btn-pricing.active-btn {
   background-color: #E74C3C;
+}
+
+.team {
+  margin-top: 45px;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  row-gap: 20px;
+}
+
+.team_content h2 {
+  font-size: 20px;
+  line-height: 40px;
+}
+
+.team_content p {
+  font-size: 15px;
+  line-height: 34px;
+}
+
+.team_content {
+  text-align: center;
+  color: #333;
+  text-transform: capitalize;
+  border: 1px solid #ddd;
+  padding: 28px 0;
+}
+
+.single_team {
+  /*! border: 1px solid #ddd; */
+}
+
+.team_image {
+  position: relative;
+}
+
+.social_overlay {
+  position: absolute;
+  width: 100%;
+  /*! top: 0; */
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  opacity: 0.75;
+  height: 0;
+  transition: 0.7s;
+  right: 0;
+  overflow: hidden;
+}
+
+.single_team:hover .social_overlay {
+  height: 100%;
+}
+
+.social_content {
+  position: absolute;
+  text-align: center;
+  top: 92%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  /* margin-top: 20px; */
+  height: 100%;
+}
+
+.social_content ul li {
+  display: inline-block;
+  margin-left: 6px;
+}
+
+.social_content ul li a i {
+  font-size: 17px;
+  background-color: #E74C3C;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #fff;
+}
+
+.social_content ul li a i:hover {
+  font-size: 17px;
+  background-color: #fff;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #333;
+  transition: 0.7s;
+}
+
+.single_team:hover .team_content {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  transition: 0.3s;
 }/*# sourceMappingURL=style.css.map */
