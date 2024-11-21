@@ -62,3 +62,18 @@
     font-size: 15px;
     font-weight: 400;
   }
+
+  
+.single_blog:hover .image {
+    transform: scale(1.1);
+    transition: .7s;
+  }
+  .blog_image {
+    overflow: hidden;
+    /*! transition: .7s; */
+  }
+
+  .single_blog:hover .blog_content h5 {
+    color: #E74C3C;
+    transition: .2s;
+  }

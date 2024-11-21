@@ -845,4 +845,14 @@ p {
 .blog_content p {
   font-size: 15px;
   font-weight: 400;
+}
+
+.single_blog:hover .image {
+  transform: scale(1.1);
+  transition: 0.7s;
+}
+
+.blog_image {
+  overflow: hidden;
+  /*! transition: .7s; */
 }/*# sourceMappingURL=style.css.map */
