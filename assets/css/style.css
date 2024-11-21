@@ -916,7 +916,7 @@ p {
   color: #fff;
 }
 
-.contact_address {
+.contact_area .contact_address {
   margin-top: 45px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -924,63 +924,53 @@ p {
   -moz-column-gap: 30px;
        column-gap: 30px;
 }
-
-.single_address {
+.contact_area .contact_address .single_address {
   padding: 40px 30px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   transition: 0.3s;
 }
-
-.single_address:hover {
+.contact_area .contact_address .single_address:hover {
   transform: translateY(-10px);
   transition: 0.3s;
 }
-
-.icon i {
+.contact_area .contact_address .single_address .icon i {
   font-size: 41px;
   color: #E74C3C;
   margin-bottom: 20px;
 }
-
-.address_title h5 {
+.contact_area .contact_address .single_address .address_title h5 {
   font-size: 18px;
   text-transform: capitalize;
   margin-bottom: 16px;
 }
-
-.address_title p {
+.contact_area .contact_address .single_address .address_title p {
   color: #F48276;
   font-weight: 400;
   font-size: 14px;
 }
-
-.address_title p a {
+.contact_area .contact_address .single_address .address_title p a {
   color: #F48276;
   font-weight: 400;
   font-size: 14px;
 }
-
-.contact {
+.contact_area .contact {
   margin-top: 45px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   -moz-column-gap: 30px;
        column-gap: 30px;
 }
-
-.contact_form input, textarea {
+.contact_area .contact .contact_form input, .contact_area .contact .contact_form textarea {
   width: 100%;
   padding: 16px;
   border: 1px solid #ddd;
   margin-bottom: 20px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
-
-.contact_form textarea {
+.contact_area .contact .contact_form textarea {
   height: 250px;
 }
-
-.contact_form input[type=submit] {
+.contact_area .contact .contact_form input[type=submit] {
   padding: 16px 0;
   width: 200px;
   background-color: #fff;
@@ -988,14 +978,23 @@ p {
   font-size: 16px;
   font-weight: 500;
 }
-
-.map iframe {
+.contact_area .contact .contact_form input[type=submit]:hover {
+  color: #fff;
+  background-color: tomato;
+  transition: 0.2s;
+}
+.contact_area .contact .map iframe {
   height: 604px;
   border: 1px solid #ddd;
   width: 100%;
 }
 
-.single_address:hover {
-  transform: translateY(-10px);
-  transition: 0.3s;
+.branding_area {
+  background-color: #EFEFEF;
+}
+.branding_area .brand {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
 }/*# sourceMappingURL=style.css.map */
