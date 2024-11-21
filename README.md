@@ -1,4 +1,4 @@
-# Project-01
+# Stellar BizPro
 
-# Project Demo Link <a href="https://sumonrst.github.io/Project-01/">Project Demo Link</a>
+# Demo Link <a href="https://sumonrst.github.io/Project-01/">Preview Link</a>
 <img src="screencapture.png">
