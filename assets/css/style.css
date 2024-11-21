@@ -997,4 +997,7 @@ p {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   -moz-column-gap: 10px;
        column-gap: 10px;
+}
+.branding_area .brand .single_brand_image img {
+  width: 85%;
 }/*# sourceMappingURL=style.css.map */
