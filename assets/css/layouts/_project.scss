@@ -1,0 +1,88 @@
+
+
+
+
+.project {
+    margin-top: 45px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+  }
+  .single_project {
+    background-size: cover;
+    background-position: center;
+    height: 258px;
+    position: relative;
+  }
+  .porject_content {
+	vertical-align: middle;
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+    text-align: center;
+}
+
+
+.porject_content h5 {
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 20px;
+    transform: translateY(40px);
+    opacity: 0;
+    visibility: hidden;
+  }
+  .porject_content a i {
+	color: #fff;
+	font-size: 27px;
+	margin-bottom: 12px;
+	transform: translateY(-10px);
+	transition: .7s;
+    opacity: 0;
+    visibility: hidden;
+}
+  .porject_content h5 span {
+    display: block;
+    font-size: 15px;
+  }
+//   .single_project::before {
+// 	position: absolute;
+// 	content: "";
+// 	background-color: #000;
+// 	width: 100%;
+// 	height: 100%;
+// 	opacity: 0.35;
+// }
+
+.single_project:hover .porject_content h5 {
+    transform: translateY(0);
+    transition: .7s;
+    opacity: 1;
+    visibility: visible;
+  }
+  .single_project:hover .porject_content a i {
+    transform: translateY(0);
+    transition: .7s;
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .project_overlay_bg{
+    position: relative;
+  }
+  .single_project:hover.project_overlay_bg::before {
+	position: absolute;
+	content: "";
+	background-color: #000;
+	width: 100%;
+	height: 100%;
+	opacity: 0.85;
+	transition: 0.7s !important;
+	transform: scale(1);
+	top: 0;
+	left: 0;
+	bottom: 0;
+}
