@@ -1,6 +1,8 @@
 
 $(document).ready(function(){
-    $('#nav').onePageNav();
+    $('#nav').onePageNav({
+        currentClass: 'current',
+    });
 });
 
 $(window).on('scroll', function (){

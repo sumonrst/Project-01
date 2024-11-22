@@ -330,6 +330,9 @@ p {
   display: flex;
   justify-content: flex-end;
 }
+.header_area .headers .header_menu ul li.current a {
+  color: #E74C3C;
+}
 .header_area .headers .header_menu ul li a {
   margin-left: 19px;
   color: #fff;

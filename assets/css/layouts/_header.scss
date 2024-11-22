@@ -31,6 +31,11 @@
                 display: flex;
                 justify-content: flex-end;
                 li{
+                    &.current{
+                        a{
+                            color: #E74C3C;
+                        }
+                    }
                     a{
                         margin-left: 19px;
                         color: #fff;
