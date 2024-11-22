@@ -8,5 +8,7 @@
 - Jquery Plugin 
 - Responsive
 - Javascript
+- Sticky Nav Menu
+- Nav Menu Scroling Plugin
 - Fontawesome Icon
 <img src="screenshort.png">
