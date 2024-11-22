@@ -10,6 +10,11 @@ $(document).ready(function(){
           enabled: true
         }
       });
+    /* counter up code */  
+    $('.counter-incriment').counterUp({
+        delay: 5,
+        time: 1000
+    }); 
 });
 
 $(window).on('scroll', function (){
