@@ -10,5 +10,6 @@
 - Javascript
 - Sticky Nav Menu
 - Nav Menu Scroling Plugin
+- Magnific-popup 
 - Fontawesome Icon
 <img src="screenshort.png">
