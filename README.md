@@ -11,5 +11,6 @@
 - Sticky Nav Menu
 - Nav Menu Scroling Plugin
 - Magnific-popup 
+- Slick Slider
 - Fontawesome Icon
 <img src="screenshort.png">

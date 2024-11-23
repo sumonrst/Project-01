@@ -15,6 +15,13 @@ $(document).ready(function(){
         delay: 5,
         time: 1000
     }); 
+    /* Slick slider */ 
+    $('.testimonial').slick({
+        // slidesToShow:2,
+        dots: false,
+        prevArrow: false,
+        nextArrow: false
+    });
 });
 
 $(window).on('scroll', function (){
