@@ -1528,4 +1528,18 @@ p {
     grid-gap: 25px;
   }
   /* price Area End */
+  /* Team Area Start */
+  .team_area .title h2 {
+    font-size: 30px;
+  }
+  .team_area .title .section_icon:before {
+    left: 32%;
+  }
+  .team_area .title .section_icon:after {
+    right: 15%;
+  }
+  .team_area .team {
+    grid-template-columns: repeat(1, auto);
+    row-gap: 25px;
+  }
 }/*# sourceMappingURL=style.css.map */

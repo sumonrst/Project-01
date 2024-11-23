@@ -524,6 +524,33 @@
     }
     /* price Area End */ 
 
+    /* Team Area Start */ 
+    .team_area {
+        .title{
+            h2{
+                font-size: 30px;
+            }
+            .section_icon{
+                &:before {
+                    left: 32%;
+                }
+                &:after {
+                    right: 15%;
+                }
+            }
+        }
+        .team {
+            grid-template-columns: repeat(1, auto);
+            row-gap: 25px;
+        }
+    }
+
+
+
+ 
+
+
+
 
 
 
