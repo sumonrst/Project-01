@@ -997,17 +997,11 @@ p {
   width: 100%;
 }
 
-.branding_area {
+.branding_area_2 {
   background-color: #EFEFEF;
 }
-.branding_area .brand {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  -moz-column-gap: 10px;
-       column-gap: 10px;
-}
-.branding_area .brand .single_brand_image img {
-  width: 85%;
+.branding_area_2 .single_brand_image_2 img {
+  width: 80%;
 }
 
 .footer_area {

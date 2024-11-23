@@ -15,13 +15,24 @@ $(document).ready(function(){
         delay: 5,
         time: 1000
     }); 
-    /* Slick slider */ 
+    /* Slick slider Testimonial */ 
     $('.testimonial').slick({
-        // slidesToShow:2,
+        autoplay: true,
+        autoplaySpeed: 1000,
         dots: false,
         prevArrow: false,
         nextArrow: false
     });
+
+    $('.brand_2').slick({
+        slidesToShow:4,
+        autoplay: true,
+        autoplaySpeed: 1000,
+        dots: false,
+        prevArrow: false,
+        nextArrow: false
+    });
+
 });
 
 $(window).on('scroll', function (){

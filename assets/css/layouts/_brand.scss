@@ -1,13 +1,23 @@
 
-  .branding_area {
+  // .branding_area {
+  //   background-color: #EFEFEF;
+  //   .brand {
+  //       display: grid;
+  //       grid-template-columns: 1fr 1fr 1fr 1fr;
+  //       column-gap: 10px;
+  //       .single_brand_image img {
+  //         width: 85%;
+  //       }
+  //     }
+  // }
+
+  .branding_area_2 {
     background-color: #EFEFEF;
-    .brand {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        column-gap: 10px;
-        .single_brand_image img {
-          width: 85%;
-        }
+    .single_brand_image_2 {
+      img {
+        width: 80%;
       }
+    }
   }
+  
   
