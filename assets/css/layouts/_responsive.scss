@@ -544,22 +544,84 @@
             row-gap: 25px;
         }
     }
+    /* Team area End */ 
 
+    /* Blog Area Start */
+    .blog_area {
+        .title{
+            h2{
+                font-size: 30px;
+            }
+            .section_icon{
+                &:before {
+                    left: 32%;
+                }
+                &:after {
+                    right: 15%;
+                }
+            }
+        }
+        .blog {
+            grid-template-columns: repeat(1, auto);
+        }
+    }
+    /*  Blog Area End */ 
 
+    /* Testimonial Area Start */ 
+    .testimonial_area{
+        .title{
+            h2{
+                font-size: 30px;
+            }
+            .section_icon{
+                &:before {
+                    left: 32%;
+                }
+                &:after {
+                    right: 15%;
+                }
+            }
+        }
+    }
+    /* Testimonial Area End */ 
 
- 
+    /* Contact area start */ 
+    .contact_area {
+        .title{
+            h2{
+                font-size: 30px;
+            }
+            .section_icon{
+                &:before {
+                    left: 32%;
+                }
+                &:after {
+                    right: 15%;
+                }
+            }
+        }
+        .contact_address {
+            grid-template-columns: 1fr;
+            grid-gap: 25px;
+        }
+        .contact {
+            grid-template-columns: 1fr;
+            column-gap: 30px;
+        }
+    }
+    /*  Contact area end */ 
 
-
-
-
-
-
-        
-
-
-
-    
+    /*  Footer Area Start */ 
+    .footer_area{
+        .footer {
+            grid-template-columns: 1fr;
+            grid-gap: 50px;
+        }
+    }
+     /*  Footer Area End */ 
+     
 }
+
 
 
 
