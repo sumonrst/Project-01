@@ -15,6 +15,10 @@ $(document).ready(function(){
         delay: 5,
         time: 1000
     }); 
+
+    /* Slick Nav Menu */ 
+    $('#nav').slicknav();
+
     /* Slick slider Testimonial */ 
     $('.testimonial').slick({
         autoplay: true,

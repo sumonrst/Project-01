@@ -1,0 +1,292 @@
+
+
+/* Large Devices */ 
+@media (min-width: 992px) and (max-width: 1200px) {
+    .container{
+        width: 970px;
+    }
+
+     /*  Header Area  Start */
+    .header_area {
+        padding: 44px 0;
+        .headers {
+            grid-template-columns: repeat(2,auto);
+        }
+    }
+     /*  Header Area  End */
+
+
+     /*  About Area  Start */
+    .about_area{
+        .about{
+            grid-template-columns: auto auto;
+            .about_video{
+                &:after{
+                    display: none;
+                }
+            }
+        }
+    }
+     /*  About Area  End */
+
+    /*  Pricing Area  Start */ 
+    .pricing_area {
+        .pricing {
+            grid-template-columns: repeat(3, auto);
+            .single_pricing {
+                width: 306px;
+            }
+        }
+    }
+    /*  Pricing Area  End */ 
+
+    /* Footer area start */ 
+    .footer_area {
+        .footer {
+            .footer_widgets{
+                .footer_content {
+                    .footer_list {
+                        li{
+                            a{
+                                i{
+                                    color: #fff;
+                                    font-size: 18px;
+                                    margin-right: 4px;
+                                    background-color: #E74C3C;
+                                    width: 40px;
+                                    height: 40px;
+                                    line-height: 40px;
+                                    text-align: center;
+                                    border-radius: 50%;
+                                    transition: all 0.2s ease-in-out;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    /* Footer area e */ 
+
+}
+
+
+
+
+/* 
+  ##Device = Tablets device
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+  
+    .container{
+        width: 750px;
+    }
+
+    /*  Slick menu Area Start */
+    .slicknav_menu {
+    display: block;
+    position: fixed;
+    z-index: 999;
+    right: 13px;
+    background-color: transparent;
+    width: 100%;
+        .slicknav_nav a:hover {
+            background: #E74C3C;
+            color: #fff;
+        }
+        ul{
+            background-color: #333333b5;
+        }
+    }
+    /*  Slick menu Area End */
+
+    /*  header Area Start */
+    .header_area {
+        &.sticky {
+            position: fixed;
+            top: 0;
+            padding: 35px 0;
+        }
+        .headers {
+            .header_menu {
+                display: none;
+            }
+            .header_logo {
+                a {
+                    display: block;
+                    position: fixed;
+                    top: 13px;
+                }
+            }
+        }
+    }
+
+    .header_area {
+        .headers {
+            grid-template-columns: repeat(2,auto);
+            justify-content: space-between;
+        }
+    }
+
+    /*  header Area End */
+
+
+    /*  About Area Start */
+    .about_area {
+        .about_title{
+            .section_icon{
+                &:before {
+                    left: 42%;
+                }
+                &:after {
+                    right: 35%;
+                }
+            }
+        }
+        .about {
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: space-between;
+            -moz-column-gap: 50px;
+            row-gap: 47px;
+            .about_video{
+                .about_image {
+                    display: none;
+                }
+                &:after {
+                    display: none;
+                }
+            }
+        }
+    }
+    /*  About Area End */
+
+    /*  Service Area Start */
+    .service_area {
+        .title{
+            .section_icon{
+                &:before {
+                    left: 43%;
+                }
+                &:after {
+                    right: 36%;
+                }
+            }
+        }
+        .service {
+            grid-template-columns: repeat(2,auto);
+            justify-content: space-between;
+        }
+    }
+    /*  Service Area End */
+
+    /*  Project Area Start */
+    .project_area {
+        .title{
+            .section_icon{
+                &:before {
+                    left: 43%;
+                }
+                &:after {
+                    right: 36%;
+                }
+            }
+        }
+        .project {
+            grid-template-columns: 1fr 1fr;
+            justify-content: space-between;
+        }
+    }
+    /*  Project Area End */
+
+    /*  Pricing Area Start */
+    .pricing_area{
+        .title{
+            .section_icon{
+                &:before {
+                    left: 43%;
+                }
+                &:after {
+                    right: 36%;
+                }
+            }
+        }
+    }
+    /*  Pricing Area End */
+
+     /*  Team Area Start */
+    .team_area {
+        .title{
+            .section_icon{
+                &:before {
+                    left: 43%;
+                }
+                &:after {
+                    right: 36%;
+                }
+            }
+        }
+    }
+    /*  Team Area End */
+
+    /*  Blog Area Start */
+    .blog_area {
+        .title{
+            .section_icon{
+                &:before {
+                    left: 43%;
+                }
+                &:after {
+                    right: 36%;
+                }
+            }
+        }
+    }
+    /*  Blog Area End */
+
+    
+
+
+
+
+
+
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

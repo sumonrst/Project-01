@@ -343,6 +343,12 @@ p {
   transition: 0.3s;
 }
 
+/*  Slick menu Area Start */
+.slicknav_menu {
+  display: none;
+}
+
+/*  Slick menu Area End */
 .banner_area {
   position: relative;
   background-size: cover;
@@ -1184,4 +1190,163 @@ p {
   top: 0;
   left: 0;
   bottom: 0;
+}
+
+/* Large Devices */
+@media (min-width: 992px) and (max-width: 1200px) {
+  .container {
+    width: 970px;
+  }
+  /*  Header Area  Start */
+  .header_area {
+    padding: 44px 0;
+  }
+  .header_area .headers {
+    grid-template-columns: repeat(2, auto);
+  }
+  /*  Header Area  End */
+  /*  About Area  Start */
+  .about_area .about {
+    grid-template-columns: auto auto;
+  }
+  .about_area .about .about_video:after {
+    display: none;
+  }
+  /*  About Area  End */
+  /*  Pricing Area  Start */
+  .pricing_area .pricing {
+    grid-template-columns: repeat(3, auto);
+  }
+  .pricing_area .pricing .single_pricing {
+    width: 306px;
+  }
+  /*  Pricing Area  End */
+  /* Footer area start */
+  .footer_area .footer .footer_widgets .footer_content .footer_list li a i {
+    color: #fff;
+    font-size: 18px;
+    margin-right: 4px;
+    background-color: #E74C3C;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    transition: all 0.2s ease-in-out;
+  }
+  /* Footer area e */
+}
+/* 
+  ##Device = Tablets device
+  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 991px) {
+  .container {
+    width: 750px;
+  }
+  /*  Slick menu Area Start */
+  .slicknav_menu {
+    display: block;
+    position: fixed;
+    z-index: 999;
+    right: 13px;
+    background-color: transparent;
+    width: 100%;
+  }
+  .slicknav_menu .slicknav_nav a:hover {
+    background: #E74C3C;
+    color: #fff;
+  }
+  .slicknav_menu ul {
+    background-color: rgba(51, 51, 51, 0.7098039216);
+  }
+  /*  Slick menu Area End */
+  /*  header Area Start */
+  .header_area.sticky {
+    position: fixed;
+    top: 0;
+    padding: 35px 0;
+  }
+  .header_area .headers .header_menu {
+    display: none;
+  }
+  .header_area .headers .header_logo a {
+    display: block;
+    position: fixed;
+    top: 13px;
+  }
+  .header_area .headers {
+    grid-template-columns: repeat(2, auto);
+    justify-content: space-between;
+  }
+  /*  header Area End */
+  /*  About Area Start */
+  .about_area .about_title .section_icon:before {
+    left: 42%;
+  }
+  .about_area .about_title .section_icon:after {
+    right: 35%;
+  }
+  .about_area .about {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    -moz-column-gap: 50px;
+    row-gap: 47px;
+  }
+  .about_area .about .about_video .about_image {
+    display: none;
+  }
+  .about_area .about .about_video:after {
+    display: none;
+  }
+  /*  About Area End */
+  /*  Service Area Start */
+  .service_area .title .section_icon:before {
+    left: 43%;
+  }
+  .service_area .title .section_icon:after {
+    right: 36%;
+  }
+  .service_area .service {
+    grid-template-columns: repeat(2, auto);
+    justify-content: space-between;
+  }
+  /*  Service Area End */
+  /*  Project Area Start */
+  .project_area .title .section_icon:before {
+    left: 43%;
+  }
+  .project_area .title .section_icon:after {
+    right: 36%;
+  }
+  .project_area .project {
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+  }
+  /*  Project Area End */
+  /*  Pricing Area Start */
+  .pricing_area .title .section_icon:before {
+    left: 43%;
+  }
+  .pricing_area .title .section_icon:after {
+    right: 36%;
+  }
+  /*  Pricing Area End */
+  /*  Team Area Start */
+  .team_area .title .section_icon:before {
+    left: 43%;
+  }
+  .team_area .title .section_icon:after {
+    right: 36%;
+  }
+  /*  Team Area End */
+  /*  Blog Area Start */
+  .blog_area .title .section_icon:before {
+    left: 43%;
+  }
+  .blog_area .title .section_icon:after {
+    right: 36%;
+  }
+  /*  Blog Area End */
 }/*# sourceMappingURL=style.css.map */
