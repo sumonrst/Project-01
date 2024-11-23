@@ -1313,6 +1313,21 @@ p {
     justify-content: space-between;
   }
   /*  Service Area End */
+  /* Counter area start */
+  .counter_area .counter {
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+  }
+  .counter_area .counter .single_counter h2 {
+    font-size: 18px;
+  }
+  .counter_area .counter .single_counter h2 span {
+    font-size: 40px;
+  }
+  .counter_area .counter .single_counter i {
+    font-size: 30px;
+  }
+  /* Counter area end */
   /*  Project Area Start */
   .project_area .title .section_icon:before {
     left: 43%;
@@ -1332,6 +1347,11 @@ p {
   .pricing_area .title .section_icon:after {
     right: 36%;
   }
+  .pricing_area .pricing {
+    grid-template-columns: 48% 48%;
+    row-gap: 20px;
+    justify-content: space-between;
+  }
   /*  Pricing Area End */
   /*  Team Area Start */
   .team_area .title .section_icon:before {
@@ -1339,6 +1359,9 @@ p {
   }
   .team_area .title .section_icon:after {
     right: 36%;
+  }
+  .team_area .team {
+    grid-template-columns: repeat(2, 1fr);
   }
   /*  Team Area End */
   /*  Blog Area Start */
@@ -1349,4 +1372,41 @@ p {
     right: 36%;
   }
   /*  Blog Area End */
+  /*  Testimonial Area Start */
+  .testimonial_area .title .section_icon:before {
+    left: 43%;
+  }
+  .testimonial_area .title .section_icon:after {
+    right: 36%;
+  }
+  /*  Testimonial Area End */
+  /*  Contact Area Start */
+  .contact_area .title .section_icon:before {
+    left: 43%;
+  }
+  .contact_area .title .section_icon:after {
+    right: 36%;
+  }
+  .contact_area .contact {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  /*  Contact Area End */
+  /* Footer Area Start */
+  .footer_area .footer .footer_widgets .footer_content .footer_list li a i {
+    font-size: 15px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 0;
+  }
+  /* Footer Area End */
+}
+/* 
+   Mobiles Device
+  ##Screen = B/w 320px to 479px
+*/
+@media (min-width: 320px) and (max-width: 767px) {
+  .container {
+    width: 300px;
+  }
 }/*# sourceMappingURL=style.css.map */
