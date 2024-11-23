@@ -1267,6 +1267,10 @@ p {
     top: 0;
     padding: 35px 0;
   }
+  .header_area .headers {
+    grid-template-columns: repeat(2, auto);
+    justify-content: space-between;
+  }
   .header_area .headers .header_menu {
     display: none;
   }
@@ -1274,10 +1278,6 @@ p {
     display: block;
     position: fixed;
     top: 13px;
-  }
-  .header_area .headers {
-    grid-template-columns: repeat(2, auto);
-    justify-content: space-between;
   }
   /*  header Area End */
   /*  About Area Start */
@@ -1409,4 +1409,123 @@ p {
   .container {
     width: 300px;
   }
+  /*  Slick menu Area Start */
+  .slicknav_menu {
+    display: block;
+    position: fixed;
+    z-index: 999;
+    right: 13px;
+    background-color: transparent;
+    width: 100%;
+  }
+  .slicknav_menu .slicknav_nav a:hover {
+    background: #E74C3C;
+    color: #fff;
+  }
+  .slicknav_menu ul {
+    background-color: rgba(51, 51, 51, 0.7098039216);
+  }
+  /*  Slick menu Area End */
+  /*  header Area Start */
+  .header_area .headers .header_menu {
+    display: none;
+  }
+  /*  header Area End */
+  /*  Banner Area Start */
+  .banner_area .banner_content h2 {
+    font-size: 30px;
+    line-height: 44px;
+    text-align: center;
+  }
+  .banner_area .banner_content p {
+    text-align: center;
+  }
+  .banner_area .banner_content .banner_btn {
+    grid-template-columns: auto;
+    gap: 0;
+  }
+  /*  Banner Area End */
+  /*  About Area Start */
+  .about_area .about_title h2 {
+    font-size: 30px;
+  }
+  .about_area .about_title .section_icon:before {
+    left: 68%;
+  }
+  .about_area .about_title .section_icon:after {
+    right: 51%;
+  }
+  .about_area .about {
+    grid-template-columns: auto;
+  }
+  .about_area .about .about_video {
+    display: none;
+  }
+  .about_area .about .about_content {
+    text-align: center;
+  }
+  /*  About Area End */
+  /* servie Area Start */
+  .service_area .title h2 {
+    font-size: 30px;
+  }
+  .service_area .title .section_icon:before {
+    left: 32%;
+  }
+  .service_area .title .section_icon:after {
+    right: 15%;
+  }
+  .service_area .service {
+    grid-template-columns: auto;
+  }
+  .service_area .service .single_service i {
+    font-size: 45px;
+  }
+  /* servie Area End */
+  /* counter area Start */
+  .counter_area .counter {
+    grid-template-columns: auto;
+    justify-content: center;
+    grid-gap: 50px;
+  }
+  .counter_area .counter .single_counter h2 span {
+    font-size: 40px;
+  }
+  /* counter area End */
+  /*  Project Area Start */
+  .project_area {
+    padding-top: 60px;
+  }
+  .project_area .title h2 {
+    font-size: 30px;
+  }
+  .project_area .title .section_icon:before {
+    left: 32%;
+  }
+  .project_area .title .section_icon:after {
+    right: 15%;
+  }
+  .project_area .project {
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+  }
+  /*  Project Area End */
+  /* Price Area Start */
+  .pricing_area {
+    padding-top: 60px;
+  }
+  .pricing_area .title h2 {
+    font-size: 30px;
+  }
+  .pricing_area .title .section_icon:before {
+    left: 32%;
+  }
+  .pricing_area .title .section_icon:after {
+    right: 15%;
+  }
+  .pricing_area .pricing {
+    grid-template-columns: 100%;
+    grid-gap: 25px;
+  }
+  /* price Area End */
 }/*# sourceMappingURL=style.css.map */

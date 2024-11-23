@@ -111,6 +111,8 @@
             padding: 35px 0;
         }
         .headers {
+            grid-template-columns: repeat(2,auto);
+            justify-content: space-between;
             .header_menu {
                 display: none;
             }
@@ -121,13 +123,6 @@
                     top: 13px;
                 }
             }
-        }
-    }
-
-    .header_area {
-        .headers {
-            grid-template-columns: repeat(2,auto);
-            justify-content: space-between;
         }
     }
 
@@ -350,8 +345,200 @@
    .container{
        width: 300px;
    }
+
+   /*  Slick menu Area Start */
+   .slicknav_menu {
+    display: block;
+    position: fixed;
+    z-index: 999;
+    right: 13px;
+    background-color: transparent;
+    width: 100%;
+        .slicknav_nav a:hover {
+            background: #E74C3C;
+            color: #fff;
+        }
+        ul{
+            background-color: #333333b5;
+        }
+    }
+    /*  Slick menu Area End */
+
+
+    /*  header Area Start */
+    .header_area {
+        // &.sticky {
+        //     position: fixed;
+        //     top: 0;
+        //     padding: 35px 0;
+        // }
+        .headers {
+
+            .header_menu {
+                display: none;
+            }
+            // .header_logo {
+            //     a {
+            //         display: block;
+            //         position: fixed;
+            //         top: 13px;
+            //     }
+            // }
+        }
+    }
+
+    /*  header Area End */
+
+    /*  Banner Area Start */ 
+    .banner_area{
+        .banner_content{
+            h2 {
+                font-size: 30px;
+                line-height: 44px;
+                text-align: center;
+            }
+            p {
+                text-align: center;
+            }
+            .banner_btn {
+                grid-template-columns: auto;
+                gap: 0;
+            }
+        }
+    }
+    /*  Banner Area End */ 
+
+    /*  About Area Start */ 
+    .about_area{
+        .about_title{
+            h2{
+                font-size: 30px;
+            }
+            .section_icon{
+                &:before {
+                    left: 68%;
+                }
+                &:after {
+                    right: 51%;
+                }
+            }
+        }
+        .about {
+            grid-template-columns: auto;
+            .about_video {
+                display: none;
+            }
+            .about_content{
+                text-align: center;
+            }
+        }
+    }
+    /*  About Area End */ 
+
+    /* servie Area Start */ 
+    .service_area {
+        .title{
+            h2{
+                font-size: 30px;
+            }
+            .section_icon{
+                &:before {
+                    left: 32%;
+                }
+                &:after {
+                    right: 15%;
+                }
+            }
+        }
+        .service {
+            grid-template-columns: auto;
+            .single_service{
+                i {
+                    font-size: 45px;
+                }
+            }
+        }
+    }
+    /* servie Area End */ 
+
+    /* counter area Start */ 
+    .counter_area{
+        .counter {
+            grid-template-columns: auto;
+            justify-content: center;
+            grid-gap: 50px;
+            .single_counter{
+                h2{
+                    span {
+                        font-size: 40px;
+                    }
+                }
+            }
+        } 
+    }
+    /* counter area End */
+
+    /*  Project Area Start */ 
+    .project_area {
+        padding-top: 60px;
+        .title{
+            h2{
+                font-size: 30px;
+            }
+            .section_icon{
+                &:before {
+                    left: 32%;
+                }
+                &:after {
+                    right: 15%;
+                }
+            }
+        }
+        .project {
+            grid-template-columns: 1fr;
+            grid-gap: 20px;
+        }
+    }
+    /*  Project Area End */ 
+
+    /* Price Area Start */ 
+    .pricing_area {
+        padding-top: 60px;
+        .title{
+            h2{
+                font-size: 30px;
+            }
+            .section_icon{
+                &:before {
+                    left: 32%;
+                }
+                &:after {
+                    right: 15%;
+                }
+            }
+        }
+        .pricing {
+            grid-template-columns: 100%;
+            grid-gap: 25px;
+        }
+    }
+    /* price Area End */ 
+
+
+
+
+        
+
+
+
     
-  }
+}
+
+
+
+
+
+
 
 
 
